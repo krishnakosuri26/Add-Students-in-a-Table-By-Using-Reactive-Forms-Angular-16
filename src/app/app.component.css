@@ -1,0 +1,64 @@
+
+.main-form{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+
+.input-box{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: left;
+  margin-top: 30px;
+}
+
+.input-box label {
+  display: block;
+}
+
+.label-text{
+  font-size: 20px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-between;
+  margin-top: 30px;
+}
+
+.btn{
+  margin-left: 40px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+
+table {
+  border-collapse: collapse;
+  border: 2px solid white;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+th,td {
+  border-collapse: collapse;
+  border: 2px solid white;
+  padding: 20px;
+}
+
+
+.input-box input.ng-touched.ng-invalid {
+  border: 2px solid red;
+}
+
+.input-box input.ng-touched.ng-valid{
+  border: 3px solid green;
+}
+
